@@ -1,15 +1,41 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Matrimonio Laura e Andrea</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <img src="/images/logo.png" alt="logo" />
+
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input
+          type="hidden"
+          name="accessKey"
+          value="99a109fd-2e49-4fd9-8621-c055876b07df"
+        />
+        <input type="text" name="name" />
+        <input type="text" name="subject" />
+        <input type="text" name="email" />
+        <input type="text" name="phone" />
+        <textarea name="message" />
+
+        <input type="text" name="replyTo" value="" />
+
+        <input type="hidden" name="replyTo" value="@" />
+
+        <input
+          type="hidden"
+          name="redirectTo"
+          value={`${process.env.NEXT_PUBLIC_WEBSITE_URL}/success`}
+        />
+        <input type="submit" value="Submit" />
+      </form>
+
+      {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
@@ -59,7 +85,7 @@ export default function Home() {
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      </footer> */}
     </div>
-  )
+  );
 }
