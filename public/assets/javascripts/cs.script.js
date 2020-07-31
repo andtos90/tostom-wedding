@@ -445,6 +445,7 @@ function toggleLeftMenu(){
 	"use strict";
 	
   if(window.innerWidth <= 767 ){
+    $('#showLeftPush').off();
     $('#showLeftPush').on( "click", function() {
       if($('.mobile-navigation').hasClass('active')){
         $('.mobile-navigation').removeClass('active');
