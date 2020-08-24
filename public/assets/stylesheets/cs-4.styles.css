@@ -5268,7 +5268,7 @@ body.index-template section.home_timeline1_layout {
 }
 
 body.index-template section.home_timeline1_layout .home_timeline1_content .timeline_content .image_time {
-    width: 33.33333%;
+    width: 20%;
     text-align: center
 }
 
@@ -5425,8 +5425,14 @@ body.index-template section.home_gallery_layout .page-image-title {
 
 body.index-template section.home_sitemap_layout {
     background-color: #fafafa;
-    padding-bottom: 0
+    padding: 80px 0;
 }
+
+section.home_sitemap_layout .element_divider {
+    width: 100%;
+    height: 40px;
+}
+
 
 body.index-template section.home_sitemap_layout .home_sitemap_content {
     display: -webkit-flex;
@@ -5483,7 +5489,8 @@ body.index-template section.home_sitemap_layout .infoevent_content>span {
 }
 
 body.index-template section.home_sitemap_layout .infoevent_content img {
-    margin-bottom: 25px
+    margin-bottom: 25px;
+    width: 100px;
 }
 
 body.index-template section.home_sitemap_layout .infoevent_content .title {
@@ -5865,7 +5872,7 @@ body.index-template section.home_rsvp_layout .input-note-form {
 body.index-template section.home_rsvp_layout .page-image-title {
     text-align: center;
     display: block;
-    margin-top: -85px
+    margin-top: 10px
 }
 
 body.index-template section.home_rsvp_layout .home_rsvp_content {
@@ -5879,7 +5886,7 @@ body.index-template section.home_rsvp_layout .rsvp_background {
     text-align: center;
     width: 1000px;
     height: 1000px;
-    padding: 120px;
+    padding: 100px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center center;
