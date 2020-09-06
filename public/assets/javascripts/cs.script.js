@@ -715,6 +715,15 @@ $( window ).on('resize', function() {
   show_sidebar();
 });
 
+function addRSVPSuccess() {
+  var search = window.location.search;
+  if(search && search.indexOf("rsvp=success") >=0) {
+    var $rsvp = $('#rsvp');
+    $rsvp.addClass('success');
+    console.log("added")
+  }
+}
+
 $(window).on('ready', function($) {
   
   show_sidebar();
@@ -753,6 +762,8 @@ $(window).on('ready', function($) {
   showMenuMobile();
   
   addColorTitle();
+
+  addRSVPSuccess();
   
 });
 

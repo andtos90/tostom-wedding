@@ -14996,3 +14996,21 @@ footer #shopify-section-theme-footer-collection section.copy-right {
 footer #shopify-section-theme-footer-collection section.copy-right .footer_copyright {
     padding: 30px 0
 }
+
+section.home_rsvp_layout.success .rsvp_success {
+    display: block;
+    font-size: 26px;
+    color: green;
+}
+
+section.home_rsvp_layout.success .group {
+    display: none;
+}
+
+section.home_rsvp_layout.success .rsvp_not_background {
+    display: none;
+}
+
+section.home_rsvp_layout .rsvp_success {
+    display: none;
+}
