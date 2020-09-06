@@ -5274,7 +5274,9 @@ body.index-template section.home_timeline1_layout .home_timeline1_content .timel
 
 body.index-template section.home_timeline1_layout .home_timeline1_content .timeline_content .timeline_caption {
     width: 66.66667%;
-    padding: 0 30px
+    padding: 0 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 body.index-template section.home_timeline1_layout .home_timeline1_content .timeline_content .timeline_caption>span {
