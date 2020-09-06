@@ -14999,6 +14999,9 @@ footer #shopify-section-theme-footer-collection section.copy-right .footer_copyr
 
 section.home_rsvp_layout.success .rsvp_success {
     display: block;
+}
+
+section.home_rsvp_layout.success .rsvp_success > p{
     font-size: 26px;
     color: green;
 }
