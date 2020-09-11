@@ -15017,3 +15017,77 @@ section.home_rsvp_layout.success .rsvp_not_background {
 section.home_rsvp_layout .rsvp_success {
     display: none;
 }
+
+.gift_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.gift_content.right {
+    flex-direction: row-reverse;
+}
+
+.image_gift {
+    max-width: 50%;
+}
+
+.gift_caption {
+    max-width: 50%;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gift_caption .title {
+    font-size: 55px;
+    font-family: AlexBrush-Regular;
+    color: #1e1e1e;
+    line-height: 1em;
+    margin-bottom: 4px;
+}
+
+.gift_caption .time {
+    color: #1e1e1e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 6px;
+}
+
+.gift_caption .caption {
+
+}
+
+@media (max-width: 1199px) {
+    .gift_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift_content.right {
+        flex-direction: column;
+    }
+
+    .image_gift {
+        max-height: 80%;
+    }
+
+    .gift_caption {
+        max-width: 100%;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.info-box {
+    background-color: lightgray;
+    margin: 24px; 
+    padding: 40px;
+}
+.info-box > p {
+    color:black;
+}
