@@ -15021,6 +15021,9 @@ section.home_rsvp_layout .rsvp_success {
 .gift_content {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #fafafa;
 }
 
 .gift_content.right {
@@ -15028,12 +15031,13 @@ section.home_rsvp_layout .rsvp_success {
 }
 
 .image_gift {
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .gift_caption {
     max-width: 50%;
-    margin-left: 16px;
+    margin-top: 16px;
+    margin-left: 32px;
     display: flex;
     flex-direction: column;
 }
@@ -15071,7 +15075,13 @@ section.home_rsvp_layout .rsvp_success {
     }
 
     .image_gift {
-        max-height: 80%;
+        max-width: 100%;
+    }
+
+    .image_gift > img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .gift_caption {
@@ -15084,10 +15094,11 @@ section.home_rsvp_layout .rsvp_success {
 }
 
 .info-box {
-    background-color: lightgray;
-    margin: 24px; 
+    background-color: #fafafa;
+    margin: 24px 0; 
     padding: 40px;
 }
+
 .info-box > p {
     color:black;
 }
