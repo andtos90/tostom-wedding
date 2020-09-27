@@ -15018,6 +15018,13 @@ section.home_rsvp_layout .rsvp_success {
     display: none;
 }
 
+
+body.index-template section.home_gifts_layout {
+    background-image: url(../../assets/images/home4_timeline_bg.png);
+    background-size: 100%;
+}
+
+
 .gift_content {
     display: flex;
     flex-direction: row;
