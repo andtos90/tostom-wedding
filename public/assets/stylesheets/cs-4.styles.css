@@ -15049,6 +15049,14 @@ body.index-template section.home_gifts_layout {
     flex-direction: column;
 }
 
+.gift_caption.right {
+    max-width: 50%;
+    margin-top: 16px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
 .gift_caption .title {
     font-size: 55px;
     font-family: AlexBrush-Regular;
@@ -15066,8 +15074,8 @@ body.index-template section.home_gifts_layout {
     margin-bottom: 6px;
 }
 
-.gift_caption .caption {
-
+.gift_caption li {
+    list-style: disc;
 }
 
 @media (max-width: 1199px) {
@@ -15108,4 +15116,17 @@ body.index-template section.home_gifts_layout {
 
 .info-box > p {
     color:black;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
