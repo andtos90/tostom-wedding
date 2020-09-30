@@ -15084,6 +15084,10 @@ body.index-template section.home_gifts_layout {
     list-style: disc;
 }
 
+.home_gifts_inner .page-title {
+    margin-top: 16px;
+}
+
 @media (max-width: 1199px) {
     .gift_content {
         display: flex;
