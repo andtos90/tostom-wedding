@@ -15017,3 +15017,131 @@ section.home_rsvp_layout.success .rsvp_not_background {
 section.home_rsvp_layout .rsvp_success {
     display: none;
 }
+
+
+body.index-template section.home_gifts_layout {
+    background-image: url(../../assets/images/home4_timeline_bg.png);
+    background-size: 100%;
+}
+
+
+.gift_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.gift_content.right {
+    flex-direction: row-reverse;
+}
+
+.image_gift {
+    max-width: 40%;
+    height: 500px;
+}
+
+.image_gift img {
+    max-height: 100%;
+}
+
+.gift_caption {
+    max-width: 50%;
+    margin-top: 16px;
+    margin-left: 42px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.gift_caption.right {
+    max-width: 50%;
+    margin-top: 16px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gift_caption .title {
+    font-size: 55px;
+    font-family: AlexBrush-Regular;
+    color: #1e1e1e;
+    line-height: 1em;
+    margin-bottom: 8px;
+}
+
+.gift_caption .time {
+    color: #1e1e1e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-bottom: 8px;
+}
+
+.gift_caption li {
+    list-style: disc;
+}
+
+@media (max-width: 1199px) {
+    .gift_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift_content.right {
+        flex-direction: column;
+    }
+
+    .image_gift {
+        max-width: 100%;
+        height: initial;
+    }
+
+    .image_gift img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .gift_caption {
+        max-width: 100%;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift_caption.right {
+        max-width: 100%;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.info-box {
+    background-color: #fafafa;
+    margin: 24px 0; 
+    padding: 40px;
+}
+
+.info-box > p {
+    color:black;
+}
+
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
