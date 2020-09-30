@@ -15039,14 +15039,20 @@ body.index-template section.home_gifts_layout {
 
 .image_gift {
     max-width: 40%;
+    height: 500px;
+}
+
+.image_gift img {
+    max-height: 100%;
 }
 
 .gift_caption {
     max-width: 50%;
     margin-top: 16px;
-    margin-left: 32px;
+    margin-left: 42px;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
 }
 
 .gift_caption.right {
@@ -15062,7 +15068,7 @@ body.index-template section.home_gifts_layout {
     font-family: AlexBrush-Regular;
     color: #1e1e1e;
     line-height: 1em;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .gift_caption .time {
@@ -15071,7 +15077,7 @@ body.index-template section.home_gifts_layout {
     text-transform: uppercase;
     font-size: 16px;
     line-height: 1.6em;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .gift_caption li {
@@ -15091,15 +15097,24 @@ body.index-template section.home_gifts_layout {
 
     .image_gift {
         max-width: 100%;
+        height: initial;
     }
 
-    .image_gift > img {
+    .image_gift img {
         height: 200px;
         width: 100%;
         object-fit: cover;
     }
 
     .gift_caption {
+        max-width: 100%;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gift_caption.right {
         max-width: 100%;
         margin-top: 16px;
         display: flex;
